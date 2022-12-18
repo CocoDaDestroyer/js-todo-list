@@ -29,7 +29,6 @@ export function displayTasksOnPage(category) {
         
   
         for (let key in categorys) {
-          console.log(`${key}: ${categorys[key]}`);
           const para = document.createElement("p");
           para.textContent = (`${key}: ${categorys[key]}`);
           card.appendChild(para);

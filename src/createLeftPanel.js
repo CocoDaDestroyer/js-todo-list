@@ -1,5 +1,5 @@
 export function createLeftPanel() {
-    const contentDiv = document.querySelector("#content");
+    const defaultDiv = document.querySelector(".defaultProjects");
     const homeDiv = document.createElement("div");
     homeDiv.classList.add("home");
     const homeHeading = document.createElement("h2");
@@ -14,5 +14,5 @@ export function createLeftPanel() {
     homeDiv.appendChild(homeHeading);
     homeDiv.appendChild(todayBtn);
     homeDiv.appendChild(weekBtn);
-    contentDiv.appendChild(homeDiv);
+    defaultDiv.appendChild(homeDiv);
 }

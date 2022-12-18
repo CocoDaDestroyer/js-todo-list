@@ -10,7 +10,7 @@
     <h1 id="header">To Do App</h1>
     <div id = "content">
       <div id = "rightDiv">
-        <div class = "rightHeader">Home</div>
+        <div class = "toDoHeader">Today</div>
         <ul class = "taskList"></ul>
         <div id = "add-todo-form" style="display:none">
           <form id = "todo-form">
@@ -30,6 +30,21 @@
           </form>
         </div>
         <button type="button" id = "createNewToDo">Create New To Do</button>
+      </div>
+      <div class = "leftDiv">
+        <div class = "defaultProjects"></div>
+        <div class = "customProjects">
+          <h2>Projects</div>
+          <ul class = "projectList"></ul>
+          <div id = "add-project-form" style="display:none">
+            <form id = "project-form">
+              <label for="Name">Title:</label><br>
+              <input type="text" id="Name" name="Name"><br>
+              <button type ="button" class = "project-button">Create</button>
+            </form>
+          </div>
+          <button type="button" id = "createNewProject">Create New Project</button>
+        </div>
       </div>
     </div>
 	  <script src="main.js"></script>
